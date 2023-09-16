@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.talkTo {
+    font-size: 50px;
+    margin: 0px;
+    font-weight: 600
+}
+
+.heading {
+    text-align: center;
+    margin-left: 50%;
+    width: 100%;
+}
+
+.centerPortion {
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 35%;
+    width: 200px;
+}
+
+.loginPortion {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 35%;
+  }
+  
+  .email {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  
+  .loginPortion input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 310px;
+    padding: 15px; /* Increased padding for spacing inside the input */
+    font-size: 16px; /* Increased font size */
+  }
+  
+  .loginPortion button {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 340px;
+    padding: 15px; /* Increased padding for spacing inside the button */
+    font-size: 16px; /* Increased font size */
+    cursor: pointer;
+  }
+  
+  .loginPortion button:hover {
+    background-color: #555;
+  }
+  .link{
+    text-decoration: none;
+    color:white;
+  }

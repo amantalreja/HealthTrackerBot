@@ -1,5 +1,11 @@
+body {
+    margin:0;
+    
+  }
 nav {
     display:flex;
+    margin-left:30px;
+    margin-right:30px;
     flex-wrap: wrap;    
     background-color:rgb(37, 32, 32) !important;
     border-radius:20px;
@@ -7,7 +13,7 @@ nav {
 
 }
 nav div{
-    flex: 1 1 33%;
+    flex: 1 1 32%;
     font-size:25px;
     text-align:center;
 }
