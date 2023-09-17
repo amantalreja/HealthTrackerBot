@@ -21,13 +21,13 @@
   }
   
   .user {
-    background-color: #007bff; /* Blue background for user messages */
+    background-color: #2F435A; /* Blue background for user messages */
     align-self: flex-end; /* Right-align user messages */
     color: #fff; /* White text color for user messages */
   }
   
   .bot {
-    background-color: #4caf50; /* Green background for bot messages */
+    background-color: #39918C; /* Green background for bot messages */
     align-self: flex-start; /* Left-align bot messages */
     color: #fff; /* White text color for bot messages */
   }

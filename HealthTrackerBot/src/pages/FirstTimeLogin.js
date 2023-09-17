@@ -36,7 +36,7 @@ const TypeformEmbed = () => {
 
   return (
     <div>
-      <h1>My React App</h1>
+      <h1 className='center'>Sign Up</h1>
       <iframe
         title="Typeform Embed"
         src="https://yxylieyb1iu.typeform.com/to/FrJrUqXu"

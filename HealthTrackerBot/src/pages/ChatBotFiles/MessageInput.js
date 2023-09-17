@@ -18,7 +18,7 @@ const MessageInput = ({ onSend }) => {
 
   return (
     <div className="message-input">
-      <input
+      <input className="borderCurved"
         type="text"
         placeholder="Type your message..."
         value={message}

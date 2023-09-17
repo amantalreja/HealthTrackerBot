@@ -1,24 +1,26 @@
 body {
     margin: 0;
+    background-color: #DDBEAA;
 }
 
 .talkTo {
-    font-size: 50px;
+    font-size: 60px;
     margin: 0px;
-    font-weight: 600
+    font-weight: 600;
+    width:100%;
 }
 
 .heading {
     text-align: center;
-    margin-left: 50%;
+    margin-left: 28%;
     width: 100%;
 }
 
 .centerPortion {
     width: 100%;
     margin-top: 60px;
-    margin-left: 35%;
-    width: 200px;
+    margin-left: 30%;
+    width: 400px;
 }
 
 .loginPortion {
@@ -75,4 +77,11 @@ body {
   }
   .center{
     text-align:center;
+  }
+  .chatPage{
+    height: 550px;
+  }
+  .blogsPageText{
+    text-align: center;
+    font-size: 40px;
   }

@@ -34,7 +34,7 @@ const Home = () => {
       <div className="centerPortion">
         <div className="heading">
           <p className="talkTo">Talk To</p>
-          <p className="talkTo">Claude</p>
+          <p className="talkTo">Medi Mind</p>
         </div>
         <div className="loginPortion">
           <p className="email">Email Address</p>

@@ -1,0 +1,5 @@
+light green: #5BA199
+dark green : #469597
+grey : #BBC6C8
+off white: #E5E3E4
+light brown: #DDBEAA

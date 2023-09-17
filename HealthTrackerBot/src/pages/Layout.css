@@ -1,5 +1,6 @@
 body {
     margin:0;
+    
   }
 nav {
     display:flex;
@@ -7,7 +8,7 @@ nav {
     margin-top:10px;
     margin-right:30px;
     flex-wrap: wrap;    
-    background-color:rgb(37, 32, 32) !important;
+    background-color: #78695d !important;
     border-radius:20px;
     padding:10px;
 
@@ -18,7 +19,7 @@ nav div{
     text-align:center;
 }
 .red{
-    color:grey;
+    color:rgb(190, 188, 188);
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
