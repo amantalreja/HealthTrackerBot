@@ -1,0 +1,39 @@
+/* ChatPage.css */
+.chat-page {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 70%;
+    gap: 15px;
+    margin-left: 13%;
+    height: 100vh; /* Ensure the chat page covers the entire viewport height */
+  }
+  
+  .message {
+    padding: 10px 15px;
+    border-radius: 10px; /* Increase border-radius for rounded corners */
+    max-width: 70%;
+    word-wrap: break-word;
+    color: #333; /* Dark text color */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  .user {
+    background-color: #007bff; /* Blue background for user messages */
+    align-self: flex-end; /* Right-align user messages */
+    color: #fff; /* White text color for user messages */
+  }
+  
+  .bot {
+    background-color: #4caf50; /* Green background for bot messages */
+    align-self: flex-start; /* Left-align bot messages */
+    color: #fff; /* White text color for bot messages */
+  }
+  
+  /* Add hover effect for messages */
+  .message:hover {
+    background-color: #ccc;
+  }
+  

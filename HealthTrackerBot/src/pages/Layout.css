@@ -1,10 +1,10 @@
 body {
     margin:0;
-    
   }
 nav {
     display:flex;
     margin-left:30px;
+    margin-top:10px;
     margin-right:30px;
     flex-wrap: wrap;    
     background-color:rgb(37, 32, 32) !important;

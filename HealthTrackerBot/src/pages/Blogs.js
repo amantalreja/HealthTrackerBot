@@ -1,8 +1,9 @@
 // Blogs.js
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-
+import ChatBot from './ChatBot';
 function fetchData(payloadLoad) {
+  
   fetch("https://hophacksapi-uj2o6ggqiq-uk.a.run.app/load_info", {
         method: 'POST',
         headers: {
@@ -28,6 +29,7 @@ function fetchData(payloadLoad) {
         console.error(error);
     });
 }
+
 const Blogs = () => {
   const location = useLocation();
   const jsonData = location.state;
@@ -46,6 +48,7 @@ const Blogs = () => {
   return (
     <div>
       {/* Your Blogs component content */}
+      <ChatBot></ChatBot>
     </div>
   );
 };
