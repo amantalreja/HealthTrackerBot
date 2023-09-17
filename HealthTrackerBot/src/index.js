@@ -4,7 +4,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/App";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
-
+import FirstTimeLogin from './pages/FirstTimeLogin';
 export default function App() {
   return (
     <BrowserRouter>
@@ -13,6 +13,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="FirstTimeLogin" element ={<FirstTimeLogin/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

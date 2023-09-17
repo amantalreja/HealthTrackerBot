@@ -5,11 +5,9 @@ const Layout = () => {
     <>
       <nav>
         <div> <Link to="/" className="red">Home</Link></div>
-        <div> <Link to="/blogs" className="red">Blogs</Link></div>
-        <div> <Link to="/contact" style={{textDecoration:'none'}} className="red" >Contact</Link></div>
-
+        <div> <Link to="/Blogs" className="red">Blogs</Link></div>
+        <div><Link to="FirstTimeLogin" className="red">Blogs</Link></div>
       </nav>
-
       <Outlet />
     </>
   )

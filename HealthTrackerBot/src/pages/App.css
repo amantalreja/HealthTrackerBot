@@ -42,7 +42,7 @@ body {
     font-size: 16px; /* Increased font size */
   }
   
-  .loginPortion button {
+  .loginPortion button,.submitButton {
     margin-top: 20px;
     background-color: #333;
     color: #fff;
@@ -54,10 +54,25 @@ body {
     cursor: pointer;
   }
   
-  .loginPortion button:hover {
+  .loginPortion button:hover,.submitButton:hover {
     background-color: #555;
   }
+
   .link{
     text-decoration: none;
     color:white;
+  }
+  .error-message {
+    color: rgb(144, 36, 36);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0; /* Add margin for spacing */
+    /* You can add more styles as needed */
+  }
+  
+  .submitButton{
+    margin-left:40%;
+  }
+  .center{
+    text-align:center;
   }
